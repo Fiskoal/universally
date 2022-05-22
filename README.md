@@ -1,27 +1,31 @@
-# Universally
+# UniversAlly
 
+Here at UniversAlly, we take pride in the galactic opportunities we provide to our customers! Anything from moons to planets to stars, this is the one-stop-shop for all celestial bodies!
+
+[Deployed Application (Not yet live)](https://google.com).
+
+*Point-of-sale app made as a demonstration for Ally.*
+
+## MVP
+
+- Inventory Page
+  - Display pricing
+  - Allow users to add items to the cart
+- Cart
+  - Display total price of items in cart
+  - Allow users to remove items from cart
+
+## Potential (Optional) Functionality
+
+These are features that are not required for MVP, but would be nice to implement.
+
+- Login/Signup *(Would require setting up a database)*
+  - Create, save, and share wishlists
+  - Add favorite items
+  - Order history
+- Checkout
+  - This would be a mock checkout, most likely making use of the [Stripe API](https://stripe.com/)
+  
+  
+  
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
