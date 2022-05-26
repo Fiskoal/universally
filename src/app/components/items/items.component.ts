@@ -23,4 +23,21 @@ export class ItemsComponent implements OnInit {
     let id = parseInt(params.split('/')[params.split('/').length - 1]);
     this.item = this.itemsService.getItem(id);
   }
+
+  addItem() {
+    let storage = localStorage.getItem('cart');
+    switch (storage) {
+      case null:
+        localStorage.setItem('cart', JSON.stringify([this.item]))
+        break;
+    
+      default:
+        console.log(storage)
+        let thisThing = JSON.parse(storage);
+        thisThing.push(this.item);
+        localStorage.setItem('cart', JSON.stringify(thisThing))
+        break;
+    }
+    console.log(JSON.parse(localStorage.getItem('cart')))
+  }
 }

@@ -7,6 +7,6 @@
     <p>{{item.priceString}}</p>
     <p>{{item.description}}</p>
     <p>Tags: {{item.type}}</p>
-    <button class="bg-grape">Add to Cart</button>
+    <button [swal]="['Success!', 'Item added to cart', 'success']" (click)="addItem()" class="bg-grape">Add to Cart</button>
   </div>
 </div>
