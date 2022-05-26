@@ -1,0 +1,19 @@
+<div class="card mb-5 bg-beige">
+  <div class="card-body d-flex flex-column">
+    <div class="flex-row mb-3">
+      <a routerLink="items/{{ item.id }}">
+        <img src="{{ item.image }}" class="card-img-top" alt="..." />
+      </a>
+    </div>
+
+    <div class="d-flex flex-row justify-content-evenly align-items-center">
+      <div class="flex-column d-flex align-items-center justify-content-center">
+        <a routerLink="items/{{ item.id }}">{{ item.name }}</a>
+        <p>{{ item.price | currency }}</p>
+      </div>
+      <div class="d-flex flex-column align-items-center justify-content-center">
+        <button [swal]="['Success!', 'Item added to cart', 'success']" (click)="addItem(item)"><fa-icon [icon]="faPlus"></fa-icon></button>
+      </div>
+    </div>
+  </div>
+</div>

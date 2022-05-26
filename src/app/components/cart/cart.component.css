@@ -1,0 +1,23 @@
+div{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap:wrap;
+}
+
+h3 {
+  color: var(--plum);
+}
+
+app-cart-item {
+  margin-left: 10px;
+}
+
+.clearCartButton {
+  border: none;
+  background-color: var(--beige);
+  border-radius: 10px;
+}
+
+.vw-75 {
+  width: 75vw;
+}

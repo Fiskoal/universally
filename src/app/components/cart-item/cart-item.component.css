@@ -1,0 +1,40 @@
+div {
+  max-width: 30vw;
+}
+
+a {
+  text-decoration: none;
+  color: var(--plum);
+  font-size: larger;
+  font-weight: 500;
+}
+
+button {
+  color: var(--beige);
+  background-color: var(--plum);
+  border-radius: 0.5rem;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--grape);
+}
+
+img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.cartItem {
+  width: 75vw;
+  min-width: 75vw;
+  margin-right: 0;
+}
+
+.card-body {
+  min-width: 75vw;
+}
+
+.itemPrice {
+  margin-right: 20px;
+}

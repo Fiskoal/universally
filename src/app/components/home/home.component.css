@@ -1,0 +1,25 @@
+.container {
+  max-width: 100vw;
+}
+
+.bg-beige {
+  padding: 5%;
+  background-color: var(--beige);
+  text-align: center;
+}
+
+img {
+  max-width: 75%;
+}
+
+.img-card {
+  width: 30vw;
+  height: 40vh;
+  color: white;
+  text-align: center;
+}
+
+.img-card img{
+  max-width: 15vw;
+  margin: 0 auto 10px auto;
+}

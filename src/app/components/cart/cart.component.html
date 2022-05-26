@@ -1,0 +1,23 @@
+<div *ngIf="items.length > 0">
+  <div class="d-flex flex-column vw-75">
+    <app-cart-item *ngFor="let item of items;let indexOfElement=index" [item]="item" [index]="indexOfElement"></app-cart-item>
+  </div> 
+  <div class="w-100 d-flex justify-content-center mb-5">
+    <div class="rounded bg-beige pt-2 px-2">
+      <h3 class="text-center">Subtotal: {{ total | currency }}</h3>
+    </div>
+    <div class="mx-2">
+      <button class="clearCartButton px-2" (click)="clearCart()">Clear Cart</button>
+    </div>
+  </div>
+</div>
+ 
+<div *ngIf="items.length < 1" class="d-flex flex-column text-center">
+  <div>
+    <h3 class="rounded bg-beige py-2 px-2">There are no items in your cart</h3>
+  </div>
+  <p class="lead text-center">
+    <a class="btn btn-primary btn-lg" href="/inventory" role="button"
+      >Browse Now</a>
+  </p>
+</div>

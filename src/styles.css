@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+  --plum: #650360;
+  --grape: #8a3575;
+  --beige: #FFF7F0;
+  font-family: Lato,HelveticaNeue-Regular,HelveticaNeue Regular,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+
+body {
+  background: var(--plum);
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins,Lato,Helvetica,Arial,sans-serif;
+}
+
+.bg-plum {
+  background-color: var(--plum);
+}
+
+.bg-grape {
+  background-color: var(--grape);
+}
+
+.bg-beige {
+  background-color: var(--beige);
+}

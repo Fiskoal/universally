@@ -1,0 +1,17 @@
+h1 {
+  color: var(--plum);
+}
+
+img {
+  max-width: 320px;
+}
+
+button {
+  color: var(--beige);
+  border-radius: 0.5rem;
+  border: none;
+}
+
+button:hover {
+  background-color: var(--plum);
+}
