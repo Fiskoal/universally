@@ -2,7 +2,7 @@
 
 Here at UniversAlly, we take pride in the galactic opportunities we provide to our customers! Anything from moons to planets to stars, this is the one-stop-shop for all celestial bodies! *(Currently limited to the Milky Way)*
 
-[Deployed Application (Not yet live)](https://google.com).
+[Deployed Application](https://universally.herokuapp.com).
 
 *Point-of-sale app made as a demonstration for Ally.*
 
