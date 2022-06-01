@@ -1,6 +1,6 @@
 # UniversAlly
 
-Here at UniversAlly, we take pride in the galactic opportunities we provide to our customers! Anything from moons to planets to stars, this is the one-stop-shop for all celestial bodies! *(Currently limited to the Milky Way)*
+Here at UniversAlly, we take pride in the galactic opportunities we provide to our customers! Anything from moons to planets to stars, this is the one-stop-shop for all celestial bodies! *(Currently limited to our solar system)*
 
 [Deployed Application](https://universally.herokuapp.com).
 
