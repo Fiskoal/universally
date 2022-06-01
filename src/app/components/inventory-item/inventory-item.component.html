@@ -11,9 +11,9 @@
         <a routerLink="items/{{ item.id }}">{{ item.name }}</a>
         <p>{{ item.price | currency }}</p>
       </div>
-      <div class="d-flex flex-column align-items-center justify-content-center">
-        <button [swal]="['Success!', 'Item added to cart', 'success']" (click)="addItem(item)"><fa-icon [icon]="faPlus"></fa-icon></button>
-      </div>
+    </div>
+    <div class="d-flex align-items-center justify-content-center">
+      <button [swal]="['Success!', 'Item added to cart', 'success']" (click)="addItem(item)"><fa-icon [icon]="faPlus"></fa-icon></button>
     </div>
   </div>
 </div>

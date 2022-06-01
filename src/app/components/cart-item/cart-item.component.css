@@ -10,8 +10,9 @@ a {
 }
 
 button {
-  color: var(--beige);
-  background-color: var(--plum);
+  color: var(--plum);
+  max-height: 30px;
+  background-color: var(--beige);
   border-radius: 0.5rem;
   border: none;
 }
